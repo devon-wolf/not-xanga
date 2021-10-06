@@ -1,9 +1,10 @@
+import { Typography } from '@mui/material';
 import React from 'react'
 
 const Header = (): JSX.Element => {
     return (
         <header>
-            <h1>This is not Xanga.</h1>
+            <Typography variant="h1">This is not Xanga.</Typography>
         </header>
     )
 }
